@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('truetype');
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(226, 205, 161, 0.87);
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(180deg, rgba(59, 216, 93, 0.925), rgb(24, 59, 20));
+}
+
+h1 {
+    font-family: "Oswald", serif;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+
+h2 {
+    font-family: 'idroid', sans-serif;
+    color: rgb(28, 70, 28);
+    padding: 20px;
+}
+
+.top > p {
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover {
+    background-color: rgb(109, 172, 109);
+    color: rgb(24, 59, 20);
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.bg {
+    background-color: white;
+    width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.39);
+}
+
+.bg > p {
+    padding: 20px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.imagem {
+    width: 900px;
+    justify-content: center;
+    text-align: center;
+}
+
+.bugdroid {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.next {
+    margin: 20px;
+    background-color: rgba(174, 227, 174, 0.804);
+    border-radius: 10px;
+}
+
+h3 {
+    background-color: rgb(41, 167, 104);
+    padding: 7px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.next > p {
+    padding: 10px 10px 20px 10px;
+    text-indent: 2em;
+}
+
+.coluna {
+    column-count: 2;
+    padding: 10px 25px 10px 25px;
+    list-style: none;
+}

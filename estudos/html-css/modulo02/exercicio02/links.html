@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* 
+            CSS - Seletores Personalizados
+
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children
+        */
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+        }
+
+        a {
+            color: black;
+        }
+
+        a:hover {
+            color: rgb(111, 37, 168);
+        }
+
+        a:active {
+            color: rgb(6, 164, 255)
+        }
+
+        button {
+            border-radius: 30px 0 0 30px;
+            background-color: rgba(96, 162, 255, 0.777);
+        }
+
+        .btn {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/rgsampaio" target="_blank" rel="external">Repositório GitHub</a></li>
+        <li><a href="#">Canal YouTube</a></li>
+        <li><button><a href="#" class="btn">Site do Ricardo</a></button></li>
+    </ul>
+</body>
+</html>
